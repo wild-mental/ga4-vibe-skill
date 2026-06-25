@@ -37,7 +37,7 @@ Before implementing, it directly scans the app's **event catalog, collection pat
 
 ### 4. Accuracy guardrails as up-front work instructions (get it right the first time)
 
-Failures that caused point deductions in past AZTKS reviews (doc mapping table mismatching the code, double counting, secret exposure, missing irreversible console settings, etc.) are nailed down as **rules G1–G10**. In particular, GA4 console's **irreversible settings** (no BigQuery link backfill, data retention, custom dimensions, traffic filters) are highlighted as a callout at the very front of the guide, to be handled **before traffic begins**.
+Common failures that break accuracy (doc mapping table mismatching the code, double counting, secret exposure, missing irreversible console settings, etc.) are nailed down as **rules G1–G10**. In particular, GA4 console's **irreversible settings** (no BigQuery link backfill, data retention, custom dimensions, traffic filters) are highlighted as a callout at the very front of the guide, to be handled **before traffic begins**.
 
 ---
 
